@@ -106,8 +106,8 @@ func (s *marginTestSuite) TestBorrowRepayBorrow() {
 			"asset":      asset,
 			"amount":     amount,
 			"isIsolated": false,
-			"symbol":     "",
-			"type":       string(_type),
+			//"symbol":     "",
+			"type": string(_type),
 		})
 		s.assertRequestEqual(e, r)
 	})
@@ -137,8 +137,8 @@ func (s *marginTestSuite) TestBorrowRepayRepay() {
 			"asset":      asset,
 			"amount":     amount,
 			"isIsolated": false,
-			"symbol":     "",
-			"type":       string(_type),
+			//"symbol":     "",
+			"type": string(_type),
 		})
 		s.assertRequestEqual(e, r)
 	})
